@@ -1,0 +1,20 @@
+<db>
+    <postgres>
+        <dbname>dizDB</dbname>
+        <dbusername>postgres</dbusername>
+        <dbpass>qwerty1996</dbpass>
+        <dbport>5432</dbport>
+        <dbhost>localhost</dbhost>
+        <dbserver>jdbc:postgresql</dbserver>
+        <dbdriver>org.postgresql.Driver</dbdriver>
+    </postgres>
+    <postgres2>
+        <dbname>dizDB2</dbname>
+        <dbusername>postgres</dbusername>
+        <dbpass>qwerty1996</dbpass>
+        <dbport>5432</dbport>
+        <dbhost>localhost</dbhost>
+        <dbserver>jdbc:postgresql</dbserver>
+        <dbdriver>org.postgresql.Driver</dbdriver>
+    </postgres2>
+</db>
