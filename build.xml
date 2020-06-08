@@ -1,6 +1,15 @@
-<?xml version = "1.0"?>
-<project name = "Hello World Project" default = "info">
-   <target name = "info">
-      <echo>Hello World - Welcome to Apache Ant!</echo>
-   </target>
-</project>
+#Fri Feb 15 10:45:22 PST 2008
+   #Sun Feb 24 18:47:36 PST 2008
+   javac.nowarn=off
+   javac.debug=on
+   build.compiler=oracle.ojc.ant.taskdefs.OjcAdapter
+   output.dir=classes
+   oracle.home=../../oracle/
+   javac.deprecation=off
+   oracle.jdeveloper.ant.library=/scratch/jdoe/oracle/jdev//lib/ant-jdeveloper.jar
+   oracle.jdeveloper.deploy.dir=/scratch/jdoe/Application7/Project1/deploy/
+   oracle.jdeveloper.ojdeploy.path=/scratch/jdoe/oracle/jdev//bin/ojdeploy
+   oracle.jdeveloper.workspace.path=/scratch/jdoe/Application7/Application7.jws
+   oracle.jdeveloper.project.name=Project1
+   oracle.jdeveloper.deploy.profile.name=*
+   oracle.jdeveloper.deploy.outputfile=/scratch/jdoe/Application
